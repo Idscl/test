@@ -1,0 +1,21 @@
+{
+  "name": "calculator-test",
+  "version":"1.0.0",
+  "description": "Test project for PR review bot",
+  "main":"src/calculator.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "invalid-script": "echo 'Hello' && exit 1"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
