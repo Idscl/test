@@ -6,7 +6,7 @@ class   Calculator{
     }
 
     add(a,b){    
-        console.log("adding numbers");
+        console.log("adding numbers"
         return a+b    
     }
 
